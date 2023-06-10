@@ -32,7 +32,7 @@ I work plug and play here. I also don't have passwords or message banners config
 The GigabitEthernet 0/0/0 port of the local router is connected to the GigabitEthernet 0/1 port of the switch. The router's interface is configured with the following IP/subnet mask: 192.168.1.1 /255.255.255.0. Again, I've made sure the interface is operational. The router's IP can now be set as the default gateway for the 3 PCs. This will enable ping between the local router and the PC.
 
 Simulate access to the Internet by creating another network with the web servers we need access to
-The external router's ## GigabitEthernet 0/0/0 port is linked to the webserver's FastEthernet0 port.
+The external router's GigabitEthernet 0/0/0 port is linked to the webserver's FastEthernet0 port.
 The router's interface is configured with the following ip/subnet mask : 192.140.1.1 / 255.255.255.0.
 The server's interface is configured with the following ip/subnet mask : 192.140.1.10 / 255.255.255.0 and it's default gateway is 192.140.1.1.
 Again I made sure the interfaces are up and running.
